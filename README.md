@@ -1,173 +1,124 @@
 # ReverseX
 
-**Solve problems backwards. Get answers faster.**
+**从答案出发，倒推路径。**
 
-*Think from the answer. Work backward.*
-
----
-
-## The Hook
-
-```
-"What if solving a problem backwards
- was 10x faster than solving it forward?"
-```
-
-**The Problem:**
-
-Forward thinking has limits:
-- You explore paths that lead nowhere
-- You miss connections that seem unrelated going forward
-- You get lost in complexity before finding the solution
-
-Traditional problem-solving starts from "what do I know" and works toward "what do I need."
-
-Reverse thinking inverts this: Start from "what do I want" and work backward to "what do I need."
+*逆向思维，10倍速解决问题。*
 
 ---
 
-## The Core Insight
+你是否有过这样的经历：
 
-**Every problem has a solution. Work backward from it.**
+面对一个复杂问题，从头开始想，却越想越乱？探索了很多方向，最后发现走错了？时间花在无关的细节上，关键路径却没找到？
 
-ReverseX is a thinking methodology that decomposes problems by starting with the desired conclusion and tracing backward through the necessary steps.
+正向思维有它的局限——你从已知出发，探索未知，但未知太大了。
 
-This approach:
-- Eliminates irrelevant exploration
-- Makes complex problems tractable
-- Creates clear paths to solutions
+**ReverseX 换一个思路：从想要的答案出发，倒推回来。**
 
 ---
 
-## What ReverseX Does
+## 核心洞察
 
-A structured backward reasoning system:
+每个问题都有解。逆向思维让你从"解"开始工作。
 
-1. **Define the Goal** — What does success look like?
-2. **Identify the Final Step** — What's the last action before success?
-3. **Trace the Predecessor** — What must be true before that step?
-4. **Repeat Until Foundation** — Continue until you reach known ground
+不是问"我怎么解决"，而是问"解决后的样子是什么"。
 
-```
-[Goal] ← [Pre-1] ← [Pre-2] ← [Pre-3] ← ... ← [Starting Point]
-```
+当你定义清楚了目标状态，路径自然浮现。
 
 ---
 
-## The Reverse Triangle
+## 工作原理
 
-A systematic decomposition method:
+**4步逆向分析：**
 
 ```
-                    [GOAL]
+[定义目标] → [识别最后一步] → [追溯前置条件] → [重复直到起点]
+```
+
+**逆向三角法：**
+
+```
+                    [目标]
                       ▲
-                   Step N
+                   第N步
                       ▲
-                   Step N-1
+                  第N-1步
                       ▲
-            ...        │
+              ...      │
                       ▲
-                   Step 2
+                   第2步
                       ▲
-                   Step 1
+                   第1步
                       ▲
-            [STARTING POINT]
+              [起点]
 ```
 
-Each step asks: "What must be true for the next step to be possible?"
+每一步问自己："为了让下一步成立，什么必须为真？"
 
 ---
 
-## Applications
+## 应用场景
 
-### Software Development
-- Start from "what should the system do?"
-- Work backward to "what should each component do?"
-- Build modules that serve defined endpoints
+**软件开发**
+- 从"系统应该做什么"开始
+- 倒推到"每个组件应该做什么"
+- 构建服务于明确端点的模块
 
-### Business Strategy
-- Start from "what's the desired outcome?"
-- Work backward to "what resources and actions are needed?"
-- Identify critical path to success
+**商业策略**
+- 从"期望结果"开始
+- 倒推到"需要什么资源和行动"
+- 识别通往成功的关键路径
 
-### Research
-- Start from "what would prove this hypothesis?"
-- Work backward to "what data and methods are needed?"
-- Design experiments that test backward from conclusions
-
----
-
-## The Architecture
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    REVERSE ENGINE                       │
-│   Goal → Preconditions → Actions → Foundation           │
-├─────────────────────────────────────────────────────────┤
-│                    TRACER                               │
-│   Decomposes problems into backward chains              │
-├─────────────────────────────────────────────────────────┤
-│                    VERIFIER                             │
-│   Validates chains are complete and sound               │
-└─────────────────────────────────────────────────────────┘
-```
+**研究**
+- 从"如何证明这个假设"开始
+- 倒推到"需要什么数据和实验"
+- 设计从结论反向验证的实验
 
 ---
 
-## The Spotlight
-
-**ReverseX changes the question from "how do I solve this?" to "what would solving this look like?"**
-
-- Forward: "I don't know where to start" → explore → maybe find solution
-- Reverse: "The solution looks like X" → work backward → guaranteed path
-
-**Core belief**: *The answer is the starting point.*
-
----
-
-## Quick Start Concept
+## 快速开始
 
 ```python
-# Define your goal
-goal = "Build a recommendation system"
+# 定义你的目标
+goal = "构建一个推荐系统"
 
-# Reverse decompose
+# 逆向分解
 path = reverse_x.decompose(goal)
-# Step 1: Define what "recommendation" means
-# Step 2: Identify data requirements
-# Step 3: Determine algorithm approach
-# Step 4: Plan infrastructure
-# Step 5: Establish evaluation metrics
 
-# Now build forward from step 5 to step 1
+# 第1步：定义"推荐"意味着什么
+# 第2步：识别数据需求
+# 第3步：确定算法方法
+# 第4步：规划基础设施
+# 第5步：建立评估指标
+
+# 现在从第5步正向构建到第1步
 ```
 
 ---
 
-## What's Inside
+## 理念
 
-```
-reversex/
-├── README.md           # This file
-├── METHODOLOGY.md     # Deep dive into reverse thinking
-├── ARCHITECTURE.md     # System design and integration
-├── EXAMPLES.md         # Real-world applications
-└── EXERCISES/          # Practice problems
-```
+**我们相信：**
+- 复杂问题往往是因为从错误的方向开始
+- 答案不是起点，但应该成为起点
+- 正向和逆向结合才是完整的思维
 
----
-
-## The Hook (Realized)
-
-```
-Before ReverseX:  "I don't know where to start."
-After ReverseX:   "The end is the start."
-```
-
-That's the power of backward reasoning.
+**ReverseX 适合：**
+- 被复杂问题困住，不知道从哪里下手
+- 需要清晰路径，而不是盲目探索
+- 想要加速问题解决，而不是试错
 
 ---
 
-*Start with the answer. Work backward.*
+## 爆点
 
-**ReverseX** — *Where problems are solved backwards.*
+> "与其问'从哪里开始'，不如问'结束在哪里'。"
+
+起点不是"我不知道"，而是"我想要什么"。
+
+这就是逆向思维的力量。
+
+---
+
+*从答案开始。倒推回来。*
+
+**ReverseX** — *让问题反向解决。*
