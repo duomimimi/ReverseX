@@ -16,7 +16,7 @@ Forward thinking has its limits — you start from the known, explore the unknow
 
 ---
 
-## The Hook
+## Core Insight
 
 > "Instead of asking 'where do I start,' ask 'where do I end.'"
 
