@@ -1,4 +1,8 @@
 # ReverseX
+[![problem solving](https://img.shields.io/badge/problem-solving-7C4DFF?style=flat-square)](#)
+[![analytical](https://img.shields.io/badge/analytical-FF6D00?style=flat-square)](#)
+[![MIT协议](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+[![版本1.0](https://img.shields.io/badge/version-1.0.0-orange?style=flat-square)](#)
 
 **从答案出发，倒推路径。**
 
