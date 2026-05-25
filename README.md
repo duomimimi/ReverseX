@@ -1,124 +1,132 @@
 # ReverseX
 
-**从答案出发，倒推路径。**
+**Solve Problems Backwards. Get Answers Faster.**
 
-*逆向思维，10倍速解决问题。*
-
----
-
-你是否有过这样的经历：
-
-面对一个复杂问题，从头开始想，却越想越乱？探索了很多方向，最后发现走错了？时间花在无关的细节上，关键路径却没找到？
-
-正向思维有它的局限——你从已知出发，探索未知，但未知太大了。
-
-**ReverseX 换一个思路：从想要的答案出发，倒推回来。**
+*Think backwards. Move forward.*
 
 ---
 
-## 核心洞察
+Do you ever find yourself facing a complex problem, thinking from the beginning, but the more you think, the more confused you get?
 
-每个问题都有解。逆向思维让你从"解"开始工作。
+Exploring many directions, only to find you went the wrong way? Time spent on irrelevant details, while the critical path was never found?
 
-不是问"我怎么解决"，而是问"解决后的样子是什么"。
+Forward thinking has its limits — you start from the known, explore the unknown, but the unknown is too vast.
 
-当你定义清楚了目标状态，路径自然浮现。
+**ReverseX changes the approach: Start from the desired answer, work backwards.**
 
 ---
 
-## 工作原理
+## The Hook
 
-**4步逆向分析：**
+> "Instead of asking 'where do I start,' ask 'where do I end.'"
+
+The starting point isn't "I don't know." It's "I know what I want."
+
+---
+
+## Core Insight
+
+Every problem has a solution. Reverse thinking lets you work from the "solution."
+
+Not asking "how do I solve it" — but asking "what does the solved state look like."
+
+When you define the target state clearly, the path naturally emerges.
+
+---
+
+## How It Works
+
+**4-Step Reverse Analysis:**
 
 ```
-[定义目标] → [识别最后一步] → [追溯前置条件] → [重复直到起点]
+[Define Goal] → [Identify Last Step] → [Trace Prerequisites] → [Repeat Until Start]
 ```
 
-**逆向三角法：**
+**Reverse Triangle Method:**
 
 ```
-                    [目标]
+                    [Goal]
                       ▲
-                   第N步
+                   Step N
                       ▲
-                  第N-1步
+                 Step N-1
                       ▲
               ...      │
                       ▲
-                   第2步
+                   Step 2
                       ▲
-                   第1步
+                   Step 1
                       ▲
-              [起点]
+              [Start]
 ```
 
-每一步问自己："为了让下一步成立，什么必须为真？"
+At each step, ask: "What must be true for the next step to work?"
 
 ---
 
-## 应用场景
+## Applications
 
-**软件开发**
-- 从"系统应该做什么"开始
-- 倒推到"每个组件应该做什么"
-- 构建服务于明确端点的模块
+**Software Development**
+- Start from "what the system should do"
+- Reverse-engineer "what each component should do"
+- Build modules serving clear endpoints
 
-**商业策略**
-- 从"期望结果"开始
-- 倒推到"需要什么资源和行动"
-- 识别通往成功的关键路径
+**Business Strategy**
+- Start from "desired outcome"
+- Reverse to "what resources and actions are needed"
+- Identify critical paths to success
 
-**研究**
-- 从"如何证明这个假设"开始
-- 倒推到"需要什么数据和实验"
-- 设计从结论反向验证的实验
+**Research**
+- Start from "how to prove this hypothesis"
+- Reverse to "what data and experiments are needed"
+- Design experiments for reverse verification
 
 ---
 
-## 快速开始
+## Quick Start
 
 ```python
-# 定义你的目标
-goal = "构建一个推荐系统"
+# Define your goal
+goal = "Build a recommendation system"
 
-# 逆向分解
+# Reverse decompose
 path = reverse_x.decompose(goal)
 
-# 第1步：定义"推荐"意味着什么
-# 第2步：识别数据需求
-# 第3步：确定算法方法
-# 第4步：规划基础设施
-# 第5步：建立评估指标
+# Step 1: Define what "recommendation" means
+# Step 2: Identify data requirements
+# Step 3: Determine algorithm approach
+# Step 4: Plan infrastructure
+# Step 5: Establish evaluation metrics
 
-# 现在从第5步正向构建到第1步
+# Now build forward from Step 5 to Step 1
 ```
 
 ---
 
-## 理念
+## The Philosophy
 
-**我们相信：**
-- 复杂问题往往是因为从错误的方向开始
-- 答案不是起点，但应该成为起点
-- 正向和逆向结合才是完整的思维
+**We believe:**
+- Complex problems often start from the wrong direction
+- The answer isn't the start, but it should become the start
+- Forward and reverse thinking together is complete thinking
 
-**ReverseX 适合：**
-- 被复杂问题困住，不知道从哪里下手
-- 需要清晰路径，而不是盲目探索
-- 想要加速问题解决，而不是试错
-
----
-
-## 爆点
-
-> "与其问'从哪里开始'，不如问'结束在哪里'。"
-
-起点不是"我不知道"，而是"我想要什么"。
-
-这就是逆向思维的力量。
+**ReverseX is for:**
+- People stuck on complex problems, unsure where to start
+- Those who need clear paths, not blind exploration
+- Anyone who wants to accelerate problem-solving
 
 ---
 
-*从答案开始。倒推回来。*
+## The Spotlight
 
-**ReverseX** — *让问题反向解决。*
+> "Instead of asking 'where do I start,' ask 'where do I end'."
+
+The starting point isn't "I don't know." It's "I know what I want."
+
+That's the power of reverse thinking.
+
+---
+
+*From the answer. Work backwards.*
+
+**ReverseX** — *Problems solved in reverse.*
